@@ -5,71 +5,109 @@ module.exports = {
     // Your Name
     name: 'Thomas Reynolds',
     // Main Site Title
-    title: `Thomas Reynolds | Software Developer`,
+    title: `Thomas Reynolds`,
     // Description that goes under your name in main bio
-    description: `Some guy`,
+    description: `Aspiring technical talent in the Twin Cities area`,
     // Optional: Twitter account handle
     // Optional: Github account URL
     github: `https://github.com/thomasreynolds4881`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/https://www.linkedin.com/in/thomas-reynolds-212917104/`,
+    linkedin: `https://www.linkedin.com/in/thomas-reynolds-212917104/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hello! I'm a recent Computer Science and Data Analytics graduate from Drake University. My skillset includes over four years of experience with several programming languages, frameworks, and theoretical aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working with end users and honing my general troubleshooting skills. I aspire to deepen my computing knowledge and work as a full-stack software developer or similar position within the Twin Cities area.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'GiveMeFilm Movie Recommendation Website',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Worked with a small team to create a website using React and Flask to generate movie recommendations for users. We stored user information using MongoDB Atlas.',
+        link: 'http://movie.givemefilm.com',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Habitat For Humanity Case Study',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Using data given by Habitat For Humanity as well as external data from the Iowa Polk County assessor database, I worked with a team to create an easy to use web app that would predict the cost of a given project. We used a GLM to generate these predictions, and worked closely with our client to ensure we made a meaningful product.',
+        link: '',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Bank Failure Research',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Prepared and automated the process of adding data to a SQL database using Python. The data was prepared for machine learning questions regarding what historically causes bank failure.',
+        link: '',
       },
+      {
+        name: 'Keypoint Pose Estimation with Animals',
+        description:
+          'Used Mask R-CNN to predict keypoint and bounding box position in different animals using PyTorch framework.',
+        link: 'https://github.com/thomasreynolds4881/Animal-Keypoint-Estimation',
+      },
+      {
+        name: 'Sims Status Bars',
+        description:
+          'Simple web app that automatically ticks down certain traits, emulating the "needs" mechanic from the Sims games.',
+        link: 'http://sims-status.s3-website-us-east-1.amazonaws.com/',
+      },
+      {
+        name: 'Twitter Text-To-Speech Bot',
+        description:
+          'A Twitter bot using the Python tweepy library that automatically reads certain tweets (filterable by keywords, account, location) out loud based on how it\'s been configured.',
+        link: 'https://github.com/thomasreynolds4881/TwitterTTSBot',
+      },
+      {
+        name: 'Shamir Secret Sharing',
+        description:
+          'An implementation of an ecyption method that uses a linear function to modify text.',
+        link: 'https://github.com/thomasreynolds4881/Shamir-Secret-Sharing'
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Covetrus',
+        description: 'IT Technician, June 2021 - Aug 2021',
+        link: '',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Drake University',
+        description: 'IT Help Desk, Aug 2020 - May 2022',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        name: 'Programming Languages',
+        description: 'Python, JavaScript, Java, C#.',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, MySQL.',
       },
       {
-        name: 'Other',
+        name: 'Cloud Computing',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Currently working on a Amazon Web Services (AWS) Cloud Practitioner certification, experience with Google Cloud Platform (GCP) and Microsoft Azure as well.',
       },
+      {
+        name: 'Data Manipulation and Visualization',
+        description:
+          'Experience with aggregating and visualizing data using R, Tableau, Python, and Excel.',
+      },
+      {
+        name: 'Machine Learning',
+        description:
+          'Have used PyTorch, TensorFlow, scikit-learn, and algorithms from scratch using Python to solve complex problems in the realms of machine learning, artificial intelligence, and computer vision.'
+      },
+      {
+        name: 'Technical End User Support',
+        description:
+          'Experience with both in-person and remote troubleshooting with network devices, various software issues, user accounts, etc.',
+      },
+      {
+        name: 'Microsoft Office Suite',
+        description:
+          'Excel, Access, Word, etc.'
+      }
     ],
   },
   plugins: [
@@ -86,6 +124,12 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "thomas-reynolds-website",
       },
     },
     {
