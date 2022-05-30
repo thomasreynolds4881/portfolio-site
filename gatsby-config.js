@@ -7,14 +7,14 @@ module.exports = {
     // Main Site Title
     title: `Thomas Reynolds`,
     // Description that goes under your name in main bio
-    description: `Aspiring technical talent in the Twin Cities area`,
+    description: `Aspiring full-stack developer and technical talent`,
     // Optional: Twitter account handle
     // Optional: Github account URL
     github: `https://github.com/thomasreynolds4881`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-reynolds-212917104/`,
     // Content of the About Me section
-    about: `Hello! I'm a recent Computer Science and Data Analytics graduate from Drake University. My skillset includes over four years of experience with several programming languages, frameworks, and theoretical aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working with end users and honing my general troubleshooting skills. I aspire to deepen my computing knowledge and work as a full-stack software developer or similar position within the Twin Cities area.`,
+    about: `Hello! I'm a recent Computer Science and Data Analytics graduate from Drake University. My skillset includes over four years of experience with several programming languages, frameworks, and theoretical aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working with end users and honing my general troubleshooting skills. I'm constantly deepening my computing knowledge and want to work as a full-stack software developer!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -56,7 +56,7 @@ module.exports = {
       {
         name: 'Shamir Secret Sharing',
         description:
-          'An implementation of an ecyption method that uses a linear function to modify text.',
+          'An implementation of an ecryption method that uses a linear function to modify text.',
         link: 'https://github.com/thomasreynolds4881/Shamir-Secret-Sharing'
       }
     ],
@@ -129,7 +129,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "thomas-reynolds-website",
+        bucketName: "thomasreynoldscode.com",
       },
     },
     {
