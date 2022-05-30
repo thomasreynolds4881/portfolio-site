@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `http://thomasreynoldscode.com/`,
     // Your Name
     name: 'Thomas Reynolds',
     // Main Site Title
-    title: `Thomas Reynolds`,
+    title: `Thomas Reynolds | Technical Talent`,
     // Description that goes under your name in main bio
     description: `Aspiring full-stack developer and technical talent`,
     // Optional: Twitter account handle
