@@ -7,26 +7,36 @@ module.exports = {
     // Main Site Title
     title: `Thomas Reynolds | Technical Talent`,
     // Description that goes under your name in main bio
-    description: `Aspiring full-stack developer and technical talent`,
+    description: `Technical Talent and Aspiring Developer`,
     // Optional: Twitter account handle
     // Optional: Github account URL
     github: `https://github.com/thomasreynolds4881`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-reynolds-212917104/`,
     // Content of the About Me section
-    about: `I’ve been interested in coding since middle school, where I started out by coding some simple scripts and text-based games in BASIC. Now, my technical skillset includes over four years of academic and self-taught experience with several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working with end users and honing my general troubleshooting skills. I love learning new things and am eager to join your team!`,
+    about: `I’ve been interested in coding since middle school, where I started out by coding some simple scripts and text-based games in BASIC. Now, my technical skillset includes over four years of academic and self-taught experience with several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working directly with end users and honing my general troubleshooting skills.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    education: [
+      {
+        name: 'Drake University',
+        description: 'Bachelor\'s Degree in Computer Science and Data Analytics, May 2022'
+      },
+      {
+        name: 'Kirkwood High School',
+        description: 'High School Diploma, May 2018'
+      }
+    ],
     projects: [
       {
         name: 'GiveMeFilm Movie Recommendation Website',
         description:
-          'Worked with a small team to create a website using React and Flask to generate movie recommendations for users. We stored user information using MongoDB Atlas.',
+          'Worked with a small team to create a website using React and Flask to generate movie recommendations for users.',
         link: 'http://movie.givemefilm.com',
       },
       {
         name: 'Habitat For Humanity Case Study',
         description:
-          'Using data given by Habitat For Humanity as well as external data from the Iowa Polk County assessor database, I worked with a team to create an easy to use web app that would predict the cost of a given project. We used a GLM to generate these predictions, and worked closely with our client to ensure we made a meaningful product.',
+          'Using data given by Habitat For Humanity as well as external data from the Iowa Polk County assessor, I worked with a team to create an easy to use web app that would predict the cost of a given HFH project. We used a statistical model to generate these predictions, and worked closely with our client to ensure we made a meaningful product.',
         link: '',
       },
       {
@@ -36,40 +46,34 @@ module.exports = {
         link: '',
       },
       {
-        name: 'Keypoint Pose Estimation with Animals',
-        description:
-          'Used Mask R-CNN to predict keypoint and bounding box position in different animals using PyTorch framework.',
-        link: 'https://github.com/thomasreynolds4881/Animal-Keypoint-Estimation',
-      },
-      {
         name: 'Sims Status Bars',
         description:
-          'WIP simple web app that automatically ticks down certain traits, emulating the "needs" mechanic from the Sims games.',
+          'Work-in-progress React app that automatically ticks down user-defined conditions, emulating the "needs" mechanic from the Sims games.',
         link: 'http://sims-status.s3-website-us-east-1.amazonaws.com/',
+      },
+      {
+        name: 'Keypoint Pose Estimation with Animals',
+        description:
+          'Used Mask R-CNN to predict keypoint and bounding box position in different animals. Used PyTorch.',
+        link: 'https://github.com/thomasreynolds4881/Animal-Keypoint-Estimation',
       },
       {
         name: 'Twitter Text-To-Speech Bot',
         description:
           'A Twitter bot using the Python tweepy library that automatically reads certain tweets (filterable by keywords, account, location) out loud based on how it\'s been configured.',
         link: 'https://github.com/thomasreynolds4881/TwitterTTSBot',
-      },
-      {
-        name: 'Shamir Secret Sharing',
-        description:
-          'An implementation of an ecryption method that uses a linear function to modify text.',
-        link: 'https://github.com/thomasreynolds4881/Shamir-Secret-Sharing'
       }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Covetrus',
-        description: 'IT Technician, June 2021 - Aug 2021',
+        name: 'Covetrus — IT Technician, June 2021 - Aug 2021',
+        description: 'Staged printers and workstations for a new Warehouse Management System. Provided remote support for different distribution centers.',
         link: '',
       },
       {
-        name: 'Drake University',
-        description: 'IT Help Desk, Aug 2020 - May 2022',
+        name: 'Drake University — IT Help Desk, Aug 2020 - May 2022',
+        description: 'Took phone calls and responded to tickets, troubleshooted issues remotely and directly with end users.',
         link: '',
       },
     ],
@@ -77,21 +81,21 @@ module.exports = {
     skills: [
       {
         name: 'Programming Languages',
-        description: 'Multiple projects using Python and JavaScript. Experience with many other languages such as C++, Java, C#, C, and Lua.',
+        description: 'Projects using Python and JavaScript. Experience with many other languages such as C++, Java, C#, C, and Lua. Experience with many frameworks including but not limited to Flask, React, web2py, and JavaFX.',
       },
       {
         name: 'Databases and APIs',
         description: 'Experience creating and querying databases using SQL and MongoDB. Experience making and testing API calls.',
       },
       {
+        name: 'Data Manipulation and Visualization',
+        description:
+          'Experience with aggregating and visualizing data using R, Python, and Excel. General statistics knowledge.',
+      },
+      {
         name: 'Cloud Computing',
         description:
           'Experience using AWS to host projects; EC2, S3, CloudFront, Lambda. General cloud service knowledge.',
-      },
-      {
-        name: 'Data Manipulation and Visualization',
-        description:
-          'Experience with aggregating and visualizing data using R, Python (+ Pandas), and Excel. General statistics knowledge.',
       },
       {
         name: 'Machine Learning',
@@ -162,7 +166,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `3794757142`, // Optional Google Analytics
       },
     },
     {
