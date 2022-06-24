@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `http://thomasreynoldscode.com/`,
+    siteUrl: `https://www.thomasreynoldscode.com/`,
     // Your Name
     name: 'Thomas Reynolds',
     // Main Site Title
@@ -14,7 +14,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-reynolds-212917104/`,
     // Content of the About Me section
-    about: `Hello! I'm a recent Computer Science and Data Analytics graduate from Drake University. My skillset includes over four years of experience with several programming languages, frameworks, and theoretical aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working with end users and honing my general troubleshooting skills. I'm constantly deepening my computing knowledge and want to work as a full-stack software developer!`,
+    about: `I’ve been interested in coding since middle school, where I started out by coding some simple scripts and text-based games in BASIC. Now, my technical skillset includes over four years of academic and self-taught experience with several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working with end users and honing my general troubleshooting skills. I love learning new things and am eager to join your team!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -44,7 +44,7 @@ module.exports = {
       {
         name: 'Sims Status Bars',
         description:
-          'Simple web app that automatically ticks down certain traits, emulating the "needs" mechanic from the Sims games.',
+          'WIP simple web app that automatically ticks down certain traits, emulating the "needs" mechanic from the Sims games.',
         link: 'http://sims-status.s3-website-us-east-1.amazonaws.com/',
       },
       {
@@ -77,36 +77,36 @@ module.exports = {
     skills: [
       {
         name: 'Programming Languages',
-        description: 'Python, JavaScript, Java, C#.',
+        description: 'Multiple projects using Python and JavaScript. Experience with many other languages such as C++, Java, C#, C, and Lua.',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, MySQL.',
+        name: 'Databases and APIs',
+        description: 'Experience creating and querying databases using SQL and MongoDB. Experience making and testing API calls.',
       },
       {
         name: 'Cloud Computing',
         description:
-          'Currently working on a Amazon Web Services (AWS) Cloud Practitioner certification, experience with Google Cloud Platform (GCP) and Microsoft Azure as well.',
+          'Experience using AWS to host projects; EC2, S3, CloudFront, Lambda. General cloud service knowledge.',
       },
       {
         name: 'Data Manipulation and Visualization',
         description:
-          'Experience with aggregating and visualizing data using R, Tableau, Python, and Excel.',
+          'Experience with aggregating and visualizing data using R, Python (+ Pandas), and Excel. General statistics knowledge.',
       },
       {
         name: 'Machine Learning',
         description:
-          'Have used PyTorch, TensorFlow, scikit-learn, and algorithms from scratch using Python to solve complex problems in the realms of machine learning, artificial intelligence, and computer vision.'
+          'Have used PyTorch, TensorFlow, scikit-learn, and algorithms to solve complex problems in the realms of machine learning, artificial intelligence, and computer vision.'
       },
       {
-        name: 'Technical End User Support',
+        name: 'Technical Support',
         description:
           'Experience with both in-person and remote troubleshooting with network devices, various software issues, user accounts, etc.',
       },
       {
         name: 'Microsoft Office Suite',
         description:
-          'Excel, Access, Word, etc.'
+          'Work experience using and troubleshooting Excel, Access, Word, etc.'
       }
     ],
   },
