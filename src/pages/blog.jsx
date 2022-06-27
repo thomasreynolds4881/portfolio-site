@@ -34,7 +34,7 @@ export const pageQuery = graphql`
         title
         description
         about
-        author
+        resume
         github
         linkedin
       }

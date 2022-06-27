@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Thomas Reynolds | Portfolio`,
     // Description that goes under your name in main bio
-    description: `Technical Talent and Software Developer`,
+    description: `Software Developer & Technical Talent`,
     // Optional: Resume
     resume: `src/images/reynolds_resume.pdf`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-reynolds-212917104/`,
     // Content of the About Me section
-    about: `I’ve been interested in coding since middle school, where I started out by coding some simple scripts and text-based games in BASIC. Now, my technical skillset includes over four years of academic and self-taught experience with several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working directly with end users and honing my general troubleshooting skills.`,
+    about: `I’ve been interested in programming since middle school, where I started out by coding some simple scripts and text-based games in BASIC. My technical skillset includes several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working directly with end users and honing my general troubleshooting skills. Some of my hobbies include speedcubing, mountain biking, and video games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     education: [
       {
@@ -122,6 +122,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
     {

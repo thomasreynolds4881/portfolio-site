@@ -12,7 +12,7 @@ const classes = {
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
   description: 'text-gray-600',
-  list: 'mt-6 uppercase tracking-wider',
+  list: 'mt-0 uppercase tracking-wider',
   item: 'inline list-none pr-4',
   link:
     'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
@@ -35,6 +35,8 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           <Link to="/">{metadata.name}</Link>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
+        <h2>E: treynolds3610@gmail.com</h2>
+        <h2>P: 314-835-0097</h2>
         <ul className={classes.list}>
           {resume && (
             <li className={classes.item}>
