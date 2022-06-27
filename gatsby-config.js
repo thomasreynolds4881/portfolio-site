@@ -5,10 +5,11 @@ module.exports = {
     // Your Name
     name: 'Thomas Reynolds',
     // Main Site Title
-    title: `Thomas Reynolds | Technical Talent`,
+    title: `Thomas Reynolds | Portfolio`,
     // Description that goes under your name in main bio
-    description: `Technical Talent and Aspiring Developer`,
-    // Optional: Twitter account handle
+    description: `Technical Talent and Software Developer`,
+    // Optional: Resume
+    resume: `src/images/reynolds_resume.pdf`,
     // Optional: Github account URL
     github: `https://github.com/thomasreynolds4881`,
     // Optional: LinkedIn account URL
