@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Thomas Reynolds | Portfolio`,
     // Description that goes under your name in main bio
-    description: `Software Developer`,
+    description: `Technical Talent and Software Developer`,
     // Optional: Resume
     resume: `src/images/reynolds_resume.pdf`,
     // Optional: Github account URL
@@ -156,7 +156,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-google-analytics`,
