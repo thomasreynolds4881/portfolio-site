@@ -21,10 +21,6 @@ module.exports = {
       {
         name: 'Drake University',
         description: 'Bachelor\'s Degree in Computer Science and Data Analytics, May 2022'
-      },
-      {
-        name: 'Kirkwood High School',
-        description: 'High School Diploma, May 2018'
       }
     ],
     projects: [
@@ -67,6 +63,11 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: 'Corelation — Software Developer, July 2022 - Present',
+        description: 'Create, revise and maintain core C++ software to meet client business needs. Complete functional testing of software prior to code review and client delivery.',
+        link: '',
+      },
       {
         name: 'Covetrus — IT Technician, June 2021 - Aug 2021',
         description: 'Staged printers and workstations for a new Warehouse Management System. Provided remote support for different distribution centers.',

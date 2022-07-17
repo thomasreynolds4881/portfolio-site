@@ -28,10 +28,10 @@ const Index = ({ data }) => {
       {about && <SectionAbout about={about} />}
       {!noBlog && <SectionBlog posts={posts} />}
       {education && <SectionEducation education={education} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
       )}
+      {projects && projects.length && <SectionProjects projects={projects} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
     </Layout>
   );
@@ -54,12 +54,12 @@ export const pageQuery = graphql`
           name
           description
         }
-        projects {
+        experience {
           name
           description
           link
         }
-        experience {
+        projects {
           name
           description
           link
