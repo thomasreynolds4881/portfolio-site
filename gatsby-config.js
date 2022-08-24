@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://www.thomasreynoldscode.com/`,
+    siteUrl: `https://thomasreynoldscode.com/`,
     // Your Name
     name: 'Thomas Reynolds',
     // Main Site Title
     title: `Thomas Reynolds | Portfolio`,
     // Description that goes under your name in main bio
-    description: `Software Developer & Technical Talent`,
+    description: `Software Engineer`,
     // Optional: Resume
     resume: `src/images/reynolds_resume.pdf`,
     // Optional: Github account URL
@@ -27,8 +27,14 @@ module.exports = {
       {
         name: 'GiveMeFilm Movie Recommendation Website',
         description:
-          'Worked with a small team to create a website using React and Flask to generate movie recommendations for users.',
+          'Worked with a small team to create a website that generates movie recommendations for users.',
         link: 'http://movie.givemefilm.com',
+      },
+      {
+        name: 'Our Daily Drink',
+        description:
+          'A website for users to get a new drink recipe every day!',
+        link: 'https://ourdailydrink.com',
       },
       {
         name: 'Habitat For Humanity Case Study',
@@ -83,7 +89,7 @@ module.exports = {
     skills: [
       {
         name: 'Programming Languages',
-        description: 'Projects using Python and JavaScript. Experience with many other languages such as C++, Java, C#, C, and Lua. Experience with many frameworks including but not limited to Flask, React, web2py, and JavaFX.',
+        description: 'Work experience with C++. Many projects using Python and JavaScript. Experience with many other languages such as Java, C#, C, and Lua. Experience with many frameworks including but not limited to Flask, React, web2py, and JavaFX.',
       },
       {
         name: 'Databases and APIs',
