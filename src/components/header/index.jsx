@@ -36,7 +36,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <h2>E: treynolds3610@gmail.com</h2>
-        <h2>P: 314-835-0097</h2>
         <ul className={classes.list}>
           {resume && (
             <li className={classes.item}>

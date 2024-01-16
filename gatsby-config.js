@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-reynolds-212917104/`,
     // Content of the About Me section
-    about: `I’ve been interested in programming since middle school, where I started out by coding some simple scripts and text-based games in BASIC. My technical skillset includes several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working directly with end users and honing my general troubleshooting skills. Some of my hobbies include speedcubing, mountain biking, and mixology.`,
+    about: `My technical skillset includes several programming languages, frameworks, and other aspects of computer science. I've also worked in the IT field, in which I've gained valuable experience working directly with end users and honing my general troubleshooting skills. Some of my hobbies include speedcubing, coffee, and mixology.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     education: [
       {
@@ -25,16 +25,16 @@ module.exports = {
     ],
     projects: [
       {
-        name: 'GiveMeFilm Movie Recommendation Website',
-        description:
-          'Worked with a small team to create a website that generates movie recommendations for users.',
-        link: 'http://movie.givemefilm.com',
-      },
-      {
         name: 'Our Daily Drink',
         description:
           'A website for users to get a new drink recipe every day!',
         link: 'https://ourdailydrink.com',
+      },
+      {
+        name: 'GiveMeFilm Movie Recommendation Website',
+        description:
+          'Worked with a small team to create a website that generates movie recommendations for users.',
+        link: 'http://movie.givemefilm.com',
       },
       {
         name: 'Habitat For Humanity Case Study',
@@ -89,7 +89,7 @@ module.exports = {
     skills: [
       {
         name: 'Programming Languages',
-        description: 'Work experience with C++. Many projects using Python and JavaScript. Experience with many other languages such as Java, C#, C, and Lua. Experience with many frameworks including but not limited to Flask, React, web2py, and JavaFX.',
+        description: 'Work experience with C++. Many projects using Python and JavaScript. Experience with many other languages such as Java, C#, C, and Lua. Experience with many frameworks including Flask, React, web2py, and JavaFX.',
       },
       {
         name: 'Databases and APIs',
@@ -108,17 +108,12 @@ module.exports = {
       {
         name: 'Machine Learning',
         description:
-          'Have used PyTorch, TensorFlow, scikit-learn, and algorithms to solve complex problems in the realms of machine learning, artificial intelligence, and computer vision.'
+          'Have used PyTorch, TensorFlow, scikit-learn, and algorithmic approaches to solve complex problems in the realms of machine learning and artificial intelligence.'
       },
       {
         name: 'Technical Support',
         description:
           'Experience with both in-person and remote troubleshooting with network devices, various software issues, user accounts, etc.',
-      },
-      {
-        name: 'Microsoft Office Suite',
-        description:
-          'Work experience using and troubleshooting Excel, Access, Word, etc.'
       }
     ],
   },
@@ -174,7 +169,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-232885350-1`, // Optional Google Analytics
+        trackingId: `G-M7ZNY23080`, // Optional Google Analytics
       },
     },
     {
